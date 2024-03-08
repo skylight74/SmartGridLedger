@@ -1,0 +1,39 @@
+{
+    "parameters": [
+        {
+            "name": "Group ID",
+            "description": "The unique identifier of the group for which status was requested.",
+            "unit": "N/A"
+        },
+        {
+            "name": "Group Name",
+            "description": "A reference name (string) for the group. Optional.",
+            "unit": "N/A"
+        },
+        {
+            "name": "Watts Total",
+            "description": "Present AC active power imported or exported from the DER group (signed quantity).",
+            "unit": "W"
+        },
+        {
+            "name": "VA",
+            "description": "Present apparent power imported or exported from the DER group.",
+            "unit": "VA"
+        },
+        {
+            "name": "VAR Total",
+            "description": "Present reactive power (capacitive or inductive) produced by the DER group.",
+            "unit": "VAR"
+        },
+        {
+            "name": "Hz",
+            "description": "Average line frequency of the DER group.",
+            "unit": "Hz"
+        },
+        {
+            "name": "Present Energy Stored",
+            "description": "Present stored energy by the DER group.",
+            "unit": "Wh"
+        }
+    ]
+}
